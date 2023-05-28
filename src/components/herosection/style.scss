@@ -1,0 +1,119 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.herocontainer {
+    width: 1920px;
+    height: 1208px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(58deg, rgba(2, 0, 36, 1) 34%, rgba(56, 9, 121, 1) 66%, rgba(35, 208, 236, 1) 100%);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    .mainlockup {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+        position: absolute;
+        width: 799px;
+        height: 200px;
+        left: 144px;
+        top: 18%;
+
+        .header {
+            width: 720px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 125%;
+            /* identical to box height, or 70px */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+
+            .linered {
+                text-decoration: line-through red;
+            }
+
+            .textcolor {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 64px;
+                line-height: 125%;
+                /* identical to box height, or 80px */
+                align-items: center;
+                letter-spacing: -0.01em;
+
+                color: #0096FF;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+
+        .pointer1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 64px;
+            width: 799px;
+            height: 64px;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+
+            .icon1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+
+                width: 68px;
+                height: 68px;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            .textcontainer {
+                display: flex;
+                flex-direction: row;
+                padding: 0px;
+                gap: 8px;
+                width: 401px;
+                height: 32px;
+                font-size: 32px;
+                color: #FFFFFF;
+                /* Inside auto layout */
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+        }
+
+    }
+
+}

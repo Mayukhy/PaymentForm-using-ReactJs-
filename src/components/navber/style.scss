@@ -1,0 +1,83 @@
+
+.Navber {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 80px;
+    gap: 10px;
+    // width: 100%;
+    background: #FFFFFF;
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 890px;
+        width: 100%;
+
+        .leftcontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 64px;
+            width: 492px;
+            height: 45px;
+
+            .navitems {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 12px;
+                width: 97px;
+                height: 24px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 19px;
+            }
+        }
+
+        .rightcontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            width: 364px;
+            height: 40px;
+
+            .navItems {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 12px;
+                width: 97px;
+                height: 24px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 19px;
+            }
+
+            .Join {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0px;
+                gap: 10px;
+                width: 166px;
+                color: aliceblue;
+                background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+                border-radius: 52px;
+            }
+        }
+    }
+
+}
