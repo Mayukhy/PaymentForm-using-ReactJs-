@@ -62,7 +62,11 @@ export default function PaymentForm() {
                             <div style={{
                                 color: '#BEBEBE'
                             }} className="righttext">
-                                <div className='rightText'>Total <span className='rightText1'>₹99</span></div>
+                                <div style={{
+                                     color: '#BEBEBE'
+                                }} className='rightText'>Total <span style={{
+                                     color: '#BEBEBE'
+                                }} className='rightText1'>₹99</span></div>
                                 <span className='permont'>₹8 <span style={{
                                     color: '#BEBEBE'
                                 }} className='month'>/mo</span></span>
